@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;500&family=Inter:wght@600&family=Montserrat:wght@400;600&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@400;500&family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #1c1c1c62;
+}
+
+section {
+    background-color: #1C1C1C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    border-radius: 20px;
+    width: 535px;
+}
+
+#profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+#profile-info img{
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+
+.titulo-h2 {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+}
+
+.paragrafo {
+    color: #ffffff94 ;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18.15px;
+}
+
+.info {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: start;
+}
+
+#social-profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#social-profile a {
+    display: flex;
+    background: #6941C6;
+    color: #FFFFFF;
+    border-radius: 8px;
+    width: 116px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+#skills {
+    display: flex;
+    gap: 20px;
+}
+
+.paragrafo-skill {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: start;
+    margin-bottom: 10px;
+}
+
+
+ul {
+    border-top: #5B5B5B 3px solid;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: #FFFFFF;
+    list-style-type: none;
+    font-size: 12px;
+}
+
+li {
+    margin-top: 20px;
+    background: #FFFFFF1A;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+@media (max-width: 768px) {
+
+     @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;500&family=Inter:wght@600&family=Montserrat:wght@400;600&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@400;500&family=Righteous&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: 'Inter', sans-serif;
+    }
+
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background: #1c1c1c62;
+    }
+
+    section {
+        background-color: #1C1C1C;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px; /* Reduzindo o padding para telas menores */
+        border-radius: 20px;
+        width: 100%; /* Alterando a largura para ocupar 100% da largura da tela */
+        max-width: 535px; /* Adicionando uma largura máxima para evitar que fique muito largo */
+    }
+
+    #profile-info img {
+        width: 150px;
+        border-radius: 50%;
+        border: 1px solid;
+    }
+
+    .titulo-h2 {
+        color: #FFFFFF;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 21.78px;
+    }
+
+    .paragrafo,
+    .paragrafo-skill,
+    .info {
+        font-size: 14px; /* Reduzindo o tamanho da fonte para telas menores */
+    }
+
+    #social-profile {
+        display: flex;
+        flex-direction: column; /* Alterando para uma coluna para empilhar os itens em telas menores */
+        align-items: center;
+    }
+
+    #social-profile a {
+        margin-bottom: 10px; /* Adicionando um espaçamento entre os botões sociais */
+    }
+
+    #skills {
+        display: flex;
+        flex-direction: column; /* Alterando para uma coluna para empilhar os itens em telas menores */
+        gap: 10px; /* Reduzindo o espaçamento entre os itens */
+    }
+
+    ul {
+        border-top: #5B5B5B 3px solid;
+        display: flex;
+        flex-direction: column; /* Alterando para uma coluna para empilhar os itens em telas menores */
+        gap: 10px; /* Reduzindo o espaçamento entre os itens */
+        color: #FFFFFF;
+    }
+
+    li {
+        margin-top: 10px; /* Reduzindo a margem superior */
+        padding: 16px; /* Reduzindo o padding para ocupar menos espaço */
+    }
+
+ }
+
+
